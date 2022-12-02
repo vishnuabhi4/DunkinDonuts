@@ -191,11 +191,8 @@ a{
 .cardsmain {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3,1fr);
     gap: 4rem;
-
-
-
 }
 
 .title center {
@@ -253,6 +250,7 @@ a{
     padding-top: 4px;
     margin-top: 24px;
     margin-right: 19px;
+    cursor: pointer;
 }
 
 title a:hover {
